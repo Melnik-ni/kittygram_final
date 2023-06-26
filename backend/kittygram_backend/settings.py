@@ -11,7 +11,7 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'django')
 
 DEBUG = os.getenv('DEBUG')
 
-ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '123.123.0.123,123.0.0.1,localhost').split(',')
+ALLOWED_HOSTS = ('158.160.28.251', '127.0.0.1', 'localhost', 'kotiki.serveftp.com')
 
 INSTALLED_APPS = [
     'django.contrib.admin',
